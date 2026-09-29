@@ -20,6 +20,17 @@ int main() {
     printf(" 18.5 a 24.9  | Normal\n");
     printf(" 25.0 a 29.9  | Sobrepeso\n");
     printf("     >=30     | Obesidad\n");
-    
+    if (bmi < 18.5) {
+    printf("\nUsted se encuentra en la condición: Bajo peso\n");
+}
+else if (bmi < 25) {
+    printf("\nUsted se encuentra en la condición: Normal\n");
+}
+else if (bmi < 30) {
+    printf("\nUsted se encuentra en la condición: Sobrepeso\n");
+}
+else {
+    printf("\nUsted se encuentra en la condición: Obesidad\n");
+}
     return 0;
 }
