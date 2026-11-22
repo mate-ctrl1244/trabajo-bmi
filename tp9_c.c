@@ -1,4 +1,4 @@
-// Repositorio: PEGAR_AQUI_LA_URL_DE_TU_REPOSITORIO
+// https://github.com/mate-ctrl1244/trabajo-bmi.git
 #include <stdio.h>
 #include <stdlib.h>
 

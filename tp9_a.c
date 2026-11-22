@@ -1,4 +1,4 @@
-// Repositorio: PEGAR_AQUI_LA_URL_DE_TU_REPOSITORIO
+// https://github.com/mate-ctrl1244/trabajo-bmi.git
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -52,7 +52,7 @@ struct estudiante cargar_estudiante(void) {
   printf("Ingrese nombre del estudiante: ");
   scanf(" %79[^\n]", e.nombre);
 
-  e.cantidad_materias = 1; // Preguntar al usuario en punto c)
+  e.cantidad_materias = 1;
   e.materia = reservar_materias(e.cantidad_materias);
 
   return e;
@@ -88,7 +88,7 @@ void cargar_parciales(materia_t *p) {
       scanf("%d", p->parcial+i);
     }
   }
-  //calcular_promedio(p);
+ 
 }
 
 materia_t* reservar_materias(int n) {
